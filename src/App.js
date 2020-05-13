@@ -4,6 +4,8 @@ import './App.css';
 import Tooltip from './composition/Tooltip';
 import TheDate from './state/TheDate.js'
 import HelloWorld from './state-drills/HelloWorld.js'
+import RouletteGun from './state-drills/RouletteGun.js'
+import Bomb from './state-drills/Bomb';
 
 const firstTooltip = (
   <Tooltip color='hotpink' message='tooltip message'>
@@ -30,6 +32,8 @@ function App() {
       </Split>  
       <TheDate />
       <HelloWorld />
+      <Bomb />
+      <RouletteGun />
     </main>
   );
 }
